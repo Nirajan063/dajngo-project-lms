@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-yt#)oj%q)^+=u-%isdwz0884mr%tx592=n1o(ia(xrvwc+ye&&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'dajngo-project-lms.onrender.com'
+]
 
 #login and logout redirect to prokfile view
 LOGIN_REDIRECT_URL = 'profile'
